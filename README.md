@@ -2,7 +2,7 @@
 
 Prettify given error objects for console outputs
 
-![](https://i.cloudup.com/y9mYC3b8t8.png)
+![](https://i.cloudup.com/Vt6PAM3yDA.png)
 
 ## Install
 
