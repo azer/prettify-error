@@ -55,5 +55,5 @@ function showColumn (code, tabn, ch) {
 }
 
 function tabStack (stack) {
-  return stack.replace(/\n/g, '\n        ');
+  return stack.replace(/\n/g, '\n    ');
 }
