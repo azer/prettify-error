@@ -1,0 +1,26 @@
+{
+  "name": "prettify-error",
+  "version": "0.0.0",
+  "description": "Prettify given error object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "format-text": "0.x",
+    "failing-code": "0.x",
+    "left-pad": "0.0.0",
+    "style-format": "0.0.0"
+  },
+  "keywords": [
+    "error",
+    "pretty",
+    "prettify"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/prettify-error.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD"
+}
