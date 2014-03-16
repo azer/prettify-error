@@ -15,9 +15,12 @@ var template = style('{bold}{red}{title} {grey}{filename}{reset}\n'
 module.exports = prettifyError;
 
 function prettifyError (error, shift) {
-  if (!error.stack) return console.error(error);
+  if (!error.stack) return;
 
   var code = failingCode(error, undefined, shift);
+
+  if (!code) return;
+
   var previousLineNo = String(code[0].line);
   var failingLineNo = String(code[1].line);
   var nextLineNo = String(code[2].line);

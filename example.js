@@ -1,7 +1,7 @@
 var prettify = require('./');
 
 process.on('uncaughtException', function (error) {
-  console.error(prettify(error));
+  console.error('\n', prettify(error));
 });
 
 

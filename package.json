@@ -1,6 +1,6 @@
 {
   "name": "prettify-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prettify given error object",
   "main": "index.js",
   "scripts": {

@@ -16,7 +16,7 @@ $ npm install prettify-error
 var prettify = require('prettify-error')
 var err = new Error('lorem ipsum')
 
-console.error(prettify(error))
+console.error(prettify(error) || error)
 ```
 
 If you'd like to skip some lines from the stack:
