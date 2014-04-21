@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "format-text": "0.x",
-    "failing-code": "0.0.x",
+    "failing-code": "0.1.x",
     "left-pad": "0.0.0",
     "style-format": "0.0.0"
   },
