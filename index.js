@@ -14,10 +14,10 @@ var template = style('{bold}{red}{title} {grey}{filename}{reset}\n'
 
 module.exports = prettifyError;
 
-function prettifyError (error, shift) {
+function prettifyError (error, shift, code) {
   if (!error.stack) return;
 
-  var code = failingCode(error, undefined, shift);
+  code || (code = failingCode(error, undefined, shift));
 
   if (!code) return;
 
